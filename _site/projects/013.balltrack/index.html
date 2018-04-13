@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+
+	<title>Portfolio Template</title>
+	<link rel="icon" type="image/png" href="/public/images/msr-student-template-favicon.png">
+
+	<link rel="stylesheet" href="/public/stylesheets/style.css">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+
+  <body>
+
+    <div id="wrapper">
+
+      <!-- <header>
+    <nav>
+    	<a href="/"><h1>Austin Lawrence</h1></a>
+    	<ul>
+    		<li><a href="/projects">Project Portfolio</a></li>
+    		<li><a href="/about/">About Me</a></li>
+    		<li><a href="/blog/">Blog</a></li>
+    		<li><a href="/contact/">Contact</a></li>
+    	</ul>
+    </nav>
+</header>
+ -->
+
+      <main class="project">
+	<section id="contact-content">
+		<img id="project-image" src="//public/images/tracker.png">
+		<h1 id="project-title">Ball Tracker</h1>
+		<h2 id="project-date">2014-09-29 00:00:00 -0600</h2>
+
+		<h2 id="background">Background</h2>
+<p>Object tracking is a valuable topic in the computer vision world, especially given the billion+ camera-enabled devices in existence today.  While it could be used for a wide variety of applications, the procedure could potentially be relatively similar across the board.</p>
+
+<h2 id="description">Description</h2>
+<p>Using OpenCV, an image is first converted into grayscale, such that each pixel assumes a value between 0 and 255.  From there, the image can very easily be thresholded to a binary classification, such that pixels below the threshold appear completely black, whereas pixels over the threshold are completely white.  In my studies, I calculated an image moment and derived a center X and Y position based on the centroid.  With this information, a 2 DoF servo-enabled camera was configured to autonomously follow the object, using PI control to stabilize the motion.</p>
+
+<p>Much more could be done from this work, especially in fields of discrete classification of objects using machine learning support vector machines, smooth target tracking using kalman filtering, or image processing for quantitative analysis.</p>
+
+
+	</section>
+
+</main>
+
+      <!-- <footer>
+    <ul>
+    	<li>ablarry91@gmail.com</li>
+    	<li>Chicago, IL</li>
+    	<li></li>
+    </ul>
+</footer>
+
+ -->
+
+    </div>
+
+  </body>
+</html>
