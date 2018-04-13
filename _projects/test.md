@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Test
-type: Website
-description: A great website
+agency: Lift Interactive
+role: Website
 date: September 28, 2014
 image: beach.png
 ---
