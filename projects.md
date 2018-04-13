@@ -1,5 +1,5 @@
 ---
-layout: construction
+layout: main
 path: /projects
 url: index.html
 image: selfriver.png
